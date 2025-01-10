@@ -3,13 +3,6 @@
 **HugTranslate** is an advanced language translation application powered by **Natural Language Processing (NLP)**. The backend leverages the **M2M100** translation model from **Hugging Face**, enabling seamless multi-language text translation. The Flutter-based frontend ensures a modern and user-friendly experience.
 
 ---
-## 📱 App Screenshots
-
-### 🌐 Language Translation Interface
-![Language Translation Interface](../mnt/data/hugtranslate1.png)
-
-### 🌍 Language Selection Menu
-![Language Selection Menu](../mnt/data/hugtranslate2.png)
 
 ## ⭐ Features
 
@@ -84,10 +77,10 @@
 ## 📱 App Screenshots
 
 ### 🌐 Language Translation Interface
-![Language Translation Interface](../mnt/data/hugtranslate1.png)
+<img src="/mnt/data/hugtranslate1.png" width="300">
 
 ### 🌍 Language Selection Menu
-![Language Selection Menu](../mnt/data/hugtranslate2.png)
+<img src="/mnt/data/hugtranslate2.png" width="300">
 
 ## 📡 API Usage
 
