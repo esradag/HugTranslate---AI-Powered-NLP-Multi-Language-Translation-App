@@ -1,44 +1,15 @@
 # HugTranslate - AI-Powered NLP Multi-Language Translation App
 
-Built with **Python**, **Flask**, and **Hugging Face Transformers (M2M100 model)** for the backend and **Flutter** for the frontend, HugTranslate offers seamless real-time text translation with a modern and user-friendly interface for global communication.
-
-## 🚀 Features
-- Real-time text translation supporting multiple languages
-- Source and target language selection
-- User-friendly and responsive design
-- Extendable features like speech translation and chat integration
-
-## 🛠️ Technologies Used
-- **Backend:** Python, Flask, Hugging Face Transformers (M2M100), Docker  
-- **Frontend:** Flutter, HTTP Packages, Material Design
-
-## 🔧 Installation
-
-### Backend
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/hugtranslate.git
-   cd hugtranslate/backend
-Install dependencies:
-
-    pip install -r requirements.txt
-Run the server:
-    
-    python app.py
-(Optional) Run with Docker:
-     
-     docker build -t hugtranslate-backend .
-     docker run -p 5001:5001 hugtranslate-backend
-
-## Frontend
-## Install Flutter:  
-Follow the [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
-
-# HugTranslate - AI-Powered NLP Multi-Language Translation App
-
 **HugTranslate** is an advanced language translation application powered by **Natural Language Processing (NLP)**. The backend leverages the **M2M100** translation model from **Hugging Face**, enabling seamless multi-language text translation. The Flutter-based frontend ensures a modern and user-friendly experience.
 
 ---
+## 📱 App Screenshots
+
+### 🌐 Language Translation Interface
+![Language Translation Interface](../mnt/data/hugtranslate1.png)
+
+### 🌍 Language Selection Menu
+![Language Selection Menu](../mnt/data/hugtranslate2.png)
 
 ## ⭐ Features
 
@@ -51,82 +22,113 @@ Follow the [Flutter Installation Guide](https://flutter.dev/docs/get-started/ins
 ## 🚀 Technologies Used
 
 ### 🔹 Backend
-
 - Python
 - Flask
 - Hugging Face Transformers (M2M100 model)
 - Docker
 
 ### 🔹 Frontend
-
 - Flutter
 - HTTP Packages
 - Material Design
 
 ## 🔧 Installation
 
-### 🔹 Backend Setup
+### Backend
 
-1. **Clone the Repository:**
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/username/hugtranslate.git
-   cd hugtranslate/backend
+   git clone https://github.com/username/HugTranslate---AI-Powered-NLP-Multi-Language-Translation-App.git
+   cd HugTranslate---AI-Powered-NLP-Multi-Language-Translation-App/backend
    ```
-2. **Install Required Packages:**
+
+2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run the Backend Server:**
+
+3. **Run the server:**
    ```bash
    python app.py
    ```
-   **Note:** If using Docker:
+
+4. **(Optional) Run with Docker:**
    ```bash
    docker build -t hugtranslate-backend .
    docker run -p 5001:5001 hugtranslate-backend
    ```
 
-### 🔹 Frontend Setup
+---
 
-1. **Install Flutter:**
+### Frontend
 
-   - [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
+1. **Install Flutter:**  
+   Follow the [Flutter Installation Guide](https://flutter.dev/docs/get-started/install)
 
-2. **Run the Flutter App:**
-
+2. **Clone the repository:**
    ```bash
-   cd hugtranslate/frontend
+   git clone https://github.com/username/HugTranslate---AI-Powered-NLP-Multi-Language-Translation-App.git
+   cd HugTranslate---AI-Powered-NLP-Multi-Language-Translation-App/frontend
+   ```
+
+3. **Install dependencies:**
+   ```bash
    flutter pub get
+   ```
+
+4. **Run the Flutter app:**
+   ```bash
    flutter run
    ```
 
+## 📱 App Screenshots
+
+### 🌐 Language Translation Interface
+![Language Translation Interface](../mnt/data/hugtranslate1.png)
+
+### 🌍 Language Selection Menu
+![Language Selection Menu](../mnt/data/hugtranslate2.png)
+
 ## 📡 API Usage
 
-### 🔹 Translation Endpoint
+**Translation Endpoint:**  
+`POST /translate`
 
-- **URL:** `POST /translate`
-- **Request Body:**
-  ```json
-  {
-    "text": "Hello world",
-    "source_lang": "en",
-    "target_lang": "de"
-  }
-  ```
-- **Response:**
-  ```json
-  {
-    "translated_text": "Hallo Welt"
-  }
-  ```
+**Request Body:**
+```json
+{
+  "text": "Hello world",
+  "source_lang": "en",
+  "target_lang": "de"
+}
+```
 
+**Response:**
+```json
+{
+  "translated_text": "Hallo Welt"
+}
+```
 
+## 🤝 Contributing
 
+1. Fork the repository  
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your feature"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature
+   ```
+5. Open a Pull Request
 
+## 📜 License
 
-
-
-
-     
+This project is licensed under the **MIT License**.
 
 
