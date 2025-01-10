@@ -6,12 +6,9 @@
 
 ## 📱 App Screenshots
 
-### 🌐 Language Translation Interface
 
 <img width="200" alt="hugtranslate1" src="https://github.com/user-attachments/assets/309ac89d-4f0e-414e-a0b3-9056f8960bee" />
 
-
-### 🌍 Language Selection Menu
 <img width="200" alt="hugtranslate2" src="https://github.com/user-attachments/assets/27651a1e-d98f-463f-a470-b42d6d90b7d8" />
 
 ## ⭐ Features
